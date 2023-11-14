@@ -1,43 +1,62 @@
 .Home {
-  width: 85%;
+  width: 80vw;
   height: 100vh;
-  margin-left: 15%;
   position: absolute;
   top: 0;
+  left: 14%;
   padding: 50px 80px;
+  z-index: 0;
+  
 
-  .Coucou{
+
+  .Coucou {
+    margin: 0 10.5%;
     height: 80px;
-width: 73.5%;
-padding: 5px;
-margin-left: 11.1%;
-font-size: 20px;
-display: flex;
-justify-content: center;
-flex-direction: column;
-line-height: 30px;
+    width: 66.5%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 40px;
+    
 
-  }
-span{
-  color: #ffa317;
-}
+    section {
+      width: 40%;
+      color: #ffa317;
+      font-family: "Oswald", sans-serif;
+      font-size: 30px;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      transition: 0.5s ease-in-out;
+      -webkit-transition: 0.5s ease-in-out;
+      -moz-transition: 0.5s ease-in-out;
+      -ms-transition: 0.5s ease-in-out;
+      -o-transition: 0.5s ease-in-out;
+      transform: scaleY(150%);
+      -webkit-transform: scaleY(150%);
+      -moz-transform: scaleY(150%);
+      -ms-transform: scaleY(150%);
+      -o-transform: scaleY(150%);
+    }
+      section:hover {
+        letter-spacing: normal;
+      }
+    }
+  
 
-
-}
 
 .Container-Projet {
-  width: 88%;
+  width: 100%;
   height: 70%;
   position: absolute;
   top: 15%;
-  left: 12%;
+  left: -5%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
   font-size: 30px;
   padding: 20px 0;
-  
 
   .Projet1 {
     width: 20%;
@@ -57,7 +76,6 @@ span{
     border: 2px solid white;
     font-size: 15px;
     cursor: pointer;
-    
   }
   .Projet2 {
     width: 20%;
@@ -136,4 +154,38 @@ span{
   img {
     width: 80%;
   }
+}}
+
+@media screen and (max-width: 1920px) {
+  
+  .Home{
+    .Coucou{
+      margin: 0 8.5%;
+      width: 72%;
+
+      section{
+        width: 50%;
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1440px) {
+  
+  .Home{
+    .Coucou{
+      margin: 0 6.2%;
+      width: 72%;
+
+      section{
+        width: 50%;
+      }
+
+    }
+
+  }
+
 }
