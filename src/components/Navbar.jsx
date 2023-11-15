@@ -30,7 +30,7 @@ export default function Navbar() {
 
         <div className='container-menu'>
           <button className='hamburger' onClick={handleShowMenu}><img src="./hamburger.png"/></button>
-          <div className={showMenu ? "menu" : ""}>
+          <div className={showMenu ? "menu" : "hide-menu"}>
             <NavLink to="/" className={determineActive} onClick={handleCloseMenu}>ACCUEIL</NavLink>
             <NavLink to="Présentation" className={determineActive} onClick={handleCloseMenu}>PRESENTATION</NavLink>
             <NavLink to="Projet" className={determineActive} onClick={handleCloseMenu}>PROJET</NavLink>

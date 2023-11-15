@@ -56,15 +56,18 @@ export default function Home() {
       <div className="Container-Projet">
         <div className="Projet1">
           <img src="/logo-SisC-2.png" />
-          <p>Sharing is Caring</p>
+          <h1>Sharing is Caring</h1>
+          <p>Site Web Espace Coworking</p>
         </div>
         <div className="Projet2">
           <img src="/Radio_World.png" />
-          <p>Radio World</p>
+          <h1>Radio World</h1>
+          <p>Application React.js</p>
         </div>
         <div className="Projet3">
           <img src="/PTinterogation.png" />
-          <p>Soon</p>
+          <h1>Soon</h1>
+          <p>3eme Projet</p>
         </div>
       </div>
       </div>

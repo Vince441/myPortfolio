@@ -1,9 +1,22 @@
-.Presentation{
-        width: 88%;
-        height: 100vh;
-        margin-left: 12%;
-        position: absolute;
-        top: 0;
-        padding: 50px 80px;
-    
+.Container-Presentation-page{
+        width: 80vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 14%;
+  
+    .Container-presentation {
+        width: 80vw;
+  height: 100vh;
+  border: 1px solid red;
+  
+        h1{
+        color: #ffa317;
+      font-family: "Oswald", sans-serif;
+      font-size: 30px;
+      letter-spacing: 0.1em;
+      transform: scaleY(140%);
+      border: 1px solid red;
+      padding: 5px;
+    }}
 }
