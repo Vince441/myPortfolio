@@ -84,6 +84,7 @@
     align-items: start;
     flex-direction: column;
     flex: 1;
+    padding-top: 30px;
 
     .hamburger{
       display: none;
@@ -126,6 +127,7 @@
 @media screen and (max-width: 1024px) {
   .Navbar {
     .container-menu {
+      padding-top: 0px;
       a {
         font-size: 15px;
         line-height: 40px;
@@ -162,6 +164,7 @@
       }
     }
     .container-menu {
+      padding-top: 0px;
       align-items: center;
       .hamburger {
         text-align: center;
