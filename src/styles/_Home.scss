@@ -6,8 +6,6 @@
   left: 14%;
   padding: 50px 80px;
   z-index: 0;
-  
-
 
   .Coucou {
     margin: 0 10.5%;
@@ -18,7 +16,6 @@
     justify-content: center;
     flex-direction: column;
     line-height: 40px;
-    
 
     section {
       width: 40%;
@@ -38,154 +35,270 @@
       -ms-transform: scaleY(150%);
       -o-transform: scaleY(150%);
     }
-      section:hover {
-        letter-spacing: normal;
+    section:hover {
+      letter-spacing: normal;
+    }
+  }
+
+  .Container-Projet {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: -5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+    padding: 20px 0;
+
+    .Projet1 {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url(./coworking-1.jpg);
+      background-size: cover;
+      transition: 0.7s ease-in-out;
+      -webkit-transition: 0.7s ease-in-out;
+      -moz-transition: 0.7s ease-in-out;
+      -ms-transition: 0.7s ease-in-out;
+      -o-transition: 0.7s ease-in-out;
+      color: black;
+      border: 2px solid white;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .Projet2 {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: black;
+      transition: 0.7s ease-in-out;
+      -webkit-transition: 0.7s ease-in-out;
+      -moz-transition: 0.7s ease-in-out;
+      -ms-transition: 0.7s ease-in-out;
+      -o-transition: 0.7s ease-in-out;
+      background-image: url(./fond_radio_2.png);
+      background-size: cover;
+      background-position: center;
+      color: black;
+      border: 2px solid white;
+      font-size: 15px;
+      cursor: pointer;
+
+      p {
+        position: relative;
+        top: 50px;
       }
     }
-  
-
-
-.Container-Projet {
-  width: 100%;
-  height: 70%;
-  position: absolute;
-  top: 15%;
-  left: -5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  font-size: 30px;
-  padding: 20px 0;
-
-  .Projet1 {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(./coworking-1.jpg);
-    background-size: cover;
-    transition: 0.7s ease-in-out;
-    -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -ms-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    color: black;
-    border: 2px solid white;
-    font-size: 15px;
-    cursor: pointer;
-  }
-  .Projet2 {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: black;
-    transition: 0.7s ease-in-out;
-    -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -ms-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    background-image: url(./fond_radio_2.png);
-    background-size: cover;
-    background-position: center;
-    color: black;
-    border: 2px solid white;
-    font-size: 15px;
-    cursor: pointer;
-
-    p {
-      position: relative;
-      top: 50px;
+    .Projet3 {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      border: 2px solid white;
+      font-size: 15px;
+      transition: 0.7s ease-in-out;
+      -webkit-transition: 0.7s ease-in-out;
+      -moz-transition: 0.7s ease-in-out;
+      -ms-transition: 0.7s ease-in-out;
+      -o-transition: 0.7s ease-in-out;
+      cursor: pointer;
+      img {
+        width: 50%;
+      }
+      p {
+        position: relative;
+        top: 60px;
+      }
     }
-  }
-  .Projet3 {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    border: 2px solid white;
-    font-size: 15px;
-    transition: 0.7s ease-in-out;
-    -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -ms-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    cursor: pointer;
+    .Projet3:hover {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+    }
+
+    .Projet2:hover {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+    }
+
+    .Projet1:hover {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+    }
+
     img {
-      width: 50%;
-    }
-    p {
-      position: relative;
-      top: 60px;
+      width: 80%;
     }
   }
-  .Projet3:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
-
-  .Projet2:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
-
-  .Projet1:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
-
-  img {
-    width: 80%;
-  }
-}}
+}
 
 @media screen and (max-width: 1920px) {
-  
-  .Home{
-    .Coucou{
+  .Home {
+    .Coucou {
       margin: 0 8.5%;
       width: 72%;
 
-      section{
+      section {
         width: 50%;
       }
-
     }
-
   }
-
 }
 
 @media screen and (max-width: 1440px) {
-  
-  .Home{
-    .Coucou{
+  .Home {
+    .Coucou {
       margin: 0 6.2%;
       width: 72%;
 
-      section{
+      section {
         width: 50%;
       }
-
     }
+  }
+}
 
+@media screen and (max-width: 1024px) {
+  .Home {
+    .Coucou {
+      margin: 10% 2%;
+      width: 72%;
+
+      section {
+        width: 80%;
+      }
+    }
+    .Container-Projet {
+      .Projet1 {
+        width: 20%;
+        height: 60%;
+        
+      }
+      .Projet2 {
+        width: 20%;
+        height: 60%;
+        
+      }
+      .Projet3 {
+        width: 20%;
+        height: 60%;
+        
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Home {
+    padding: 0px 30px;
+
+    .Coucou {
+      margin: 20% auto;
+      width: 100%;
+      text-align: right;
+     
+      
+      section {
+        width: 100%;
+        
+      }
+    }
+    .Container-Projet {
+      .Projet1 {
+        width: 30%;
+        height: 50%;
+        
+      }
+      .Projet2 {
+        width: 30%;
+        height: 50%;
+        
+      }
+      .Projet3 {
+        width: 30%;
+        height: 50%;
+        
+      }
+    }
   }
 
+
 }
+
+
+@media screen and (max-width: 425px) {
+  .Home {
+    .Coucou {
+      margin: 85% -5%;
+      width: 50vw;
+      height: 15vh;
+      text-align: left;
+
+      section {
+        width: 70vw;
+        font-size: 18px;
+      }
+    }
+    .Container-Projet {
+      top: 40%;
+      width: 100%;
+      height: 100%;
+      flex-direction: column-reverse;
+      .Projet1 {
+        width: 80%;
+        height: 100%;
+        
+      }
+      .Projet2 {
+        width: 80%;
+        height: 100%;
+        
+      }
+      .Projet3 {
+        width: 80%;
+        height: 100%;
+        
+      }
+    }
+  }
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+  .Home {
+    .Coucou {
+      margin: 100% -5%;
+      width: 50vw;
+      height: 15vh;
+      text-align: left;
+
+      section {
+        width: 70vw;
+        font-size: 18px;
+      }
+    }
+
+
+}}
