@@ -18,5 +18,30 @@
       transform: scaleY(140%);
       border: 1px solid red;
       padding: 5px;
-    }}
+    }
+    h2{
+      color: #596475;
+    font-family: "Oswald", sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.1em;
+    transform: scaleY(140%);
+    border: 1px solid red;
+    padding: 5px;
+  }
+  .Logo-competence {
+    border: 1px solid red;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 5%;
+      
+      align-items: center;
+
+      
+    }
+  }
+  }
 }
