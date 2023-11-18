@@ -1,47 +1,100 @@
-.Container-Presentation-page{
-        width: 80vw;
+.Container-Presentation-page {
+  width: 50vw;
+  // width: 100vw;
   height: 100vh;
   position: absolute;
   top: 0;
   left: 14%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.884);
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  animation : Presentation-anim 0.5s forwards;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+
+@keyframes Presentation-anim {
+  from {
+transform: translateY(-100%);
+  } to {
+    transform: translateY(0%);
+  }
   
-    .Container-presentation {
-        width: 80vw;
-  height: 100vh;
-  border: 1px solid red;
-  
-        h1{
-        color: #ffa317;
+}
+
+
+  .Container-presentation {
+    width: 50vw;
+    height: 50%;
+    // margin: calc((100vh - 596px) / 2) auto;
+
+    padding: 0 15%;
+
+    h1 {
+      color: #ffa317;
       font-family: "Oswald", sans-serif;
       font-size: 30px;
       letter-spacing: 0.1em;
       transform: scaleY(140%);
-      border: 1px solid red;
-      padding: 5px;
+      margin-bottom: 10px;
     }
-    h2{
-      color: #596475;
-    font-family: "Oswald", sans-serif;
-    font-size: 26px;
-    letter-spacing: 0.1em;
-    transform: scaleY(140%);
-    border: 1px solid red;
-    padding: 5px;
-  }
-  .Logo-competence {
-    border: 1px solid red;
-    width: 100%;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    img {
-      width: 5%;
-      
-      align-items: center;
+    .presentation {
+      width: 100%;
+      font-style: italic;
+      margin-bottom: 20px;
+      line-height: 25px;
+span{
+  color: #ffa317;
+  font-size: 20px;
+}
 
+      strong {
+        font-size: 40px;
+        font-style: normal;
+      }
       
     }
-  }
+    h2 {
+      color: #ffa317;
+      font-family: "Oswald", sans-serif;
+      font-size: 26px;
+      letter-spacing: 0.1em;
+      transform: scaleY(140%);
+      margin-bottom: 10px;
+    }
+
+    .container-logo {
+      width: 100%;
+      padding-top: 10px;
+
+      .Logo-competence {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 30%;
+        .Logo-1 {
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          width: 100%;
+          img {
+            width: 6em;
+            padding: 20px;
+          }
+        }
+        .Logo-2 {
+          display: flex;
+          width: 50%;
+          width: 100%;
+          justify-content: left;
+          align-items: center;
+          img {
+            width: 6em;
+            padding: 20px;
+          }
+        }
+      }
+    }
   }
 }
