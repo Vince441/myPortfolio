@@ -1,17 +1,19 @@
 import React from "react";
 import ExperienceList from "../components/ExperienceList";
-import experiences from "../components/data"; 
+import experiences from "../components/data";
+
 export default function Presentation() {
   return (
     <div className="Container-Presentation-page">
       <div className="Container-presentation">
+        <div className="first-part">
         <h1>PRESENTATION</h1>
         <p className="presentation">
           <strong>Hello !</strong>
           <br />
           <br />
-          Je m'appel <span>Vincent Louvart de Pontlevoye</span>, un passionné du
-          web actuellement en formation à la Wild Code School en tant que
+          Je m'appelle <span>Vincent Louvart de Pontlevoye</span>, un passionné
+          du web actuellement en formation à la Wild Code School en tant que
           Développeur Web & Mobile front-end junior.
           <br />
           <br /> Mon parcours a débuté au collège, où un premier stage dans un
@@ -43,11 +45,15 @@ export default function Presentation() {
               <img src="./logo-competence/github-white.png" alt="" />
               <img src="./logo-competence/logo-git.png" alt="" />
               <img src="./logo-competence/vscode.png" alt="" />
+              <img src="./logo-competence/mySQL.png" alt="" />
             </div>
           </div>
         </div>
+        </div>
+        <div className="scd-part">
         <h2>EXPERIENCE PRO</h2>
-          <ExperienceList experiences={ experiences } />
+        <ExperienceList experiences={experiences} />
+        </div>
       </div>
     </div>
   );

@@ -1,29 +1,104 @@
-.ContainerMapExperience{
+.ContainerMapExperience {
+  position: relative;
+  margin-top: 5%;
+  
+
+
+  .trait {
+    width: 5px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
+
+  .Exp-container {
     display: flex;
-    width: 100vw;
-    gap: 80px;
+    flex-direction: column;
+    width: 50%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-bottom: 2%;
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+    box-shadow: 1px 3px 10px 6px #ffffff33;
+    
 
-    .carousel-container{
-        width: 80vw;
+    .first-object{
+        border-bottom: 1px solid white;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        
+        
+    h3 { 
+      font-size: 15px;
+      line-height: 20px;
+      color: #61dbfb;
+     
     }
+}
 
-.Exp-container{
-    width: 100%;
-    text-align: center;
-    padding: 30px 10px;
-    line-height: 50px;
-    
-    
-    
+
+    .sc-object{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        background-color: #f1f1f1cc;
+      color: black;
+    p {
+      font-size: 11px;
+      text-align: center;
+      line-height: 20px;
+      
+      span {
+        color: #61dbfb;
+      }
+    }
+}}}
+
+
+.Exp-container.card-style-0{
+    .first-object{
+        
     h3{
-        font-size: 20px;
+        color: #e34f26;
+    }}
+}
+.Exp-container.card-style-1{
+    .first-object{
+    h3{
+        color: #4c6ae2;
+    }}
+}
+.Exp-container.card-style-2{
+    .first-object{
+    h3{
+        color: #F0DB4F;
+    }}
+}
+.Exp-container.card-style-3{
+    .first-object{
+    h3{
         color: #61DBFB;
-    }
-    p{
-        line-height: 25px;
-font-size: 15px;
-        span{
-            color: #61DBFB;
-        }
-    }
-}}
+    }}
+}
+.Exp-container.card-style-4{
+    .first-object{
+    h3{
+        color: #00758F;
+    }}
+}
+.Exp-container.card-style-5{
+    .first-object{
+    h3{
+        color: white;
+    }}
+}
+
+
+
