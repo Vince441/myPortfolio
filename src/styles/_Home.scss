@@ -217,8 +217,11 @@ background-color: black;
 
 @media screen and (max-width: 1440px) {
   .Home {
+    .Container-Projet{
+      left : 0%;
+    }
     .Coucou {
-      margin: 0 6.2%;
+      margin: 0 12%;
       width: 72%;
 
       section {
@@ -241,17 +244,27 @@ background-color: black;
       }
     }
     .Container-Projet {
+      left : -5%;
       .Projet1 {
         width: 20%;
         height: 60%;
+        p{
+            top: 4%;
+        }
       }
       .Projet2 {
         width: 20%;
         height: 60%;
+        p{
+          top: 4%;
+      }
       }
       .Projet3 {
         width: 20%;
         height: 60%;
+        p{
+          top: 4%;
+      }
       }
     }
   }
