@@ -1,0 +1,54 @@
+.Projet-Home {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .Projet-cards {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+
+    position: relative;
+
+    img {
+      width: 296px;
+      height: 296px;
+      object-fit: cover;
+    }
+
+    .Projet-text-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+        .container-image {
+display: flex;
+justify-content: center;
+          img{
+            margin-top: calc((100%/80%)/2);
+            width: 80%;
+            height: 80%;
+          }
+          
+          }
+        }
+      }
+      .projet-text {
+        background-color: rgba(0, 0, 0, 0.596);
+        padding: 5px;
+        text-align: center;
+        border: 1px solid white;
+        h1 {
+            font-size: 15px;
+          }
+          h2 {
+            font-size: 15px;
+          }}
+    }
+  
+
