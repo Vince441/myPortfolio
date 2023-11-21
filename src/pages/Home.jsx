@@ -4,6 +4,7 @@ import projet from "../components/projet.js";
 import ProjetHome from "../components/ProjetHome";
 
 
+
 export default function Home() {
   return (
     
@@ -60,6 +61,7 @@ export default function Home() {
           
             
         </div>
+        
       </div>
     
   );

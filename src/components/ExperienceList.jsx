@@ -19,12 +19,13 @@ export default function ExperienceList({ experiences }) {
             </h3>
           </div>
           <div className="sc-object">
+          
             <p>
-              {object.description} <br />
-              {object.option}
-              <br />
-              {object.year}
-            </p>
+              <strong>{object.description}</strong> </p>
+              {object.option ? 
+             <p> {object.option} </p>: ""}
+              <p>{object.year}</p> 
+            
           </div>
         </div>
         

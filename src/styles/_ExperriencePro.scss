@@ -47,13 +47,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         height: 100%;
         background-color: #f1f1f1cc;
       color: black;
     p {
-      font-size: 11px;
+      font-size: 14px;
       text-align: center;
-      line-height: 20px;
+      line-height: 22px;
       
       span {
         color: #61dbfb;
@@ -90,7 +91,7 @@
 .Exp-container.card-style-4{
     .first-object{
     h3{
-        color: #00758F;
+        color: #e8406a;
     }}
 }
 .Exp-container.card-style-5{

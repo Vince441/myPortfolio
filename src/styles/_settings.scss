@@ -9,9 +9,11 @@
     
 }
 
+
+
 body {
 width: 100vw;
-height: 100vh;
+height: 100%;
 background-image : url(./fond.jpg);
 background-size: cover;
 background-position: center;
@@ -23,6 +25,7 @@ font-family: "Montserrat", sans-serif;
 
 @media screen and (max-width: 425px) {
     body{
+
         background-image: none;
         background-color: black;
     }

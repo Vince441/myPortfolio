@@ -37,11 +37,6 @@ export default function Navbar() {
             <NavLink to="Contact" className={determineActive} onClick={handleCloseMenu}>CONTACT</NavLink>
           </div>
         </div>
-
-        <div className='audio'>
-          <p>My playlist</p>
-          <audio controls src=""></audio>
-        </div>
       </div>
     </>
   );

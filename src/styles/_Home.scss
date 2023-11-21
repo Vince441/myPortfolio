@@ -4,7 +4,6 @@
   position: absolute;
   top: 0;
   left: 14%;
-  padding: 50px 80px;
   z-index: 0;
   animation : Presentation-anim 0.5s forwards;
   transition: 0.5s ease-in-out;
@@ -18,7 +17,7 @@ transform: translateY(-100%);
   
 }
   .Coucou {
-    margin: 0 10.5%;
+    margin: 0;
     height: 80px;
     width: 66.5%;
     font-size: 20px;
@@ -48,106 +47,58 @@ transform: translateY(-100%);
 
   .Container-Projet {
     width: 100%;
-    height: 70%;
     position: absolute;
-    top: 15%;
+    top: calc((100% - 348px)/2);
     left: -5%;
     font-size: 30px;
   }
 }
 
 @media screen and (max-width: 1920px) {
-  .Home {
-    .Coucou {
-      margin: 0 8.5%;
-      width: 72%;
 
-      section {
-        width: 50%;
-      }
-    }
-
-  }
 }
 
 @media screen and (max-width: 1440px) {
-  .Home {
-    .Container-Projet{
-      left : 0%;
-    }
-    .Coucou {
-      margin: 0 12%;
-      width: 72%;
 
-      section {
-        width: 50%;
-      }
-    }
-
-
-  }
 }
 
 @media screen and (max-width: 1024px) {
-  .Home {
-    .Coucou {
-      margin: 10% 2%;
-      width: 72%;
 
-      section {
-        width: 80%;
-      }
-    }
-    
-  }
 }
 
 @media screen and (max-width: 768px) {
-  .Home {
-    padding: 0px 30px;
-
-    .Coucou {
-      margin: 20% auto;
-      width: 100%;
-      text-align: right;
-
-      section {
-        width: 100%;
-      }
-    }
-    
-  }
+  
 }
 
 @media screen and (max-width: 425px) {
-  .Home {
-    .Coucou {
-      margin: 50% -5%;
-      width: 50vw;
-      height: 15vh;
-      text-align: left;
-
-      section {
-        width: 70vw;
-        font-size: 18px;
-      }
-    }
-    
-  }
+  
 }
 
 @media screen and (max-width: 375px) {
-  .Home {
+  .Home{
+    position: initial;
+    width: 100%;
+    margin-top: 10px;
+    overflow: scroll;
     .Coucou {
-      margin: 55% -5%;
-      width: 50vw;
-      height: 15vh;
-      text-align: left;
-
-      section {
-        width: 70vw;
-        font-size: 18px;
+      width: 100%;
+      font-size: 16px;
+      line-height: 20px;
+row-gap: 10px;
+padding-left: 0%;
+padding-bottom: 5%;
+transform: scaleY(130%);
+letter-spacing: 0.1em;
+text-align: center;
+      section{
+        width: 100%;
+        font-size: 16px;
       }
+    }
+
+    .Container-Projet {
+      position: initial;
+      height: 0;
     }
   }
 }
