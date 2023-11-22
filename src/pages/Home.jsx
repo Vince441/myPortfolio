@@ -14,36 +14,26 @@ export default function Home() {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .changeDelay(100)
+                .changeDelay(50)
                 .typeString(
-                  'DEV FRONT-END<span style="color: #F1F1F1">!</span>'
+                  'DEV FRONT-END<span style="color: #F1F1F1"> !</span>'
                 )
-                .pauseFor(500)
+                .pauseFor(300)
                 .deleteAll()
                 .typeString(
-                  '<span style="color: #e34f26">HTML</span><span style="color: #F1F1F1">!</span>'
+                  '<span style="color: #61DBFB">REACT</span><span style="color: #F1F1F1"> !</span>'
                 )
-                .pauseFor(500)
+                .pauseFor(300)
                 .deleteAll()
                 .typeString(
-                  '<span style="color: #4c6ae2">CSS</span><span style="color: #F1F1F1">!</span>'
+                  '<span style="color: #539e43">Node.js</span><span style="color: #F1F1F1"> !</span>'
                 )
-                .pauseFor(500)
+                .pauseFor(300)
                 .deleteAll()
                 .typeString(
-                  '<span style="color: #F0DB4F">JAVASCRIPT</span><span style="color: #F1F1F1">!</span>'
+                  '<span style="color: #00758F">My</span><span style="color: #F29111">SQL</span><span style="color: #F1F1F1"> !</span>'
                 )
-                .pauseFor(500)
-                .deleteAll()
-                .typeString(
-                  '<span style="color: #61DBFB">REACT</span><span style="color: #F1F1F1">!</span>'
-                )
-                .pauseFor(500)
-                .deleteAll()
-                .typeString(
-                  '<span style="color: #00758F">My</span><span style="color: #F29111">SQL</span><span style="color: #F1F1F1">!</span>'
-                )
-                .pauseFor(500)
+                .pauseFor(300)
                 .deleteAll()
                 .typeString(
                   'DEV FRONT-END <span style="color: #F1F1F1">!</span>'

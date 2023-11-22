@@ -8,7 +8,7 @@ const projet = [
     Technologie: "HTML, CSS, JS, Git",
   },
   {
-    NumeroProjet: "Projet ",
+    NumeroProjet: "Projet 2",
     ProjetName: "Radio World",
     Image: "/fond_radio_2.png",
     Logo: "/Radio_World.png",
