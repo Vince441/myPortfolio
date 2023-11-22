@@ -1,9 +1,7 @@
 .Home {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
   position: absolute;
   top: 0;
-  left: 14%;
   z-index: 0;
   animation: Presentation-anim 0.5s forwards;
   transition: 0.5s ease-in-out;
@@ -16,117 +14,172 @@
       transform: translateY(0%);
     }
   }
-  .Coucou {
-    margin: 0;
-    height: 80px;
-    width: 66.5%;
-    font-size: 20px;
+
+  .Coucou-home {
+    width: 70vw;
+    margin: 80px auto;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    line-height: 40px;
+    gap: 100px;
+    .Coucou {
+      height: 80px;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      line-height: 40px;
+      text-align: center;
 
-    section {
-      width: 40%;
-      color: #ffa317;
-      font-family: "Oswald", sans-serif;
+      section {
+        color: #ffa317;
+        font-family: "Oswald", sans-serif;
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        transform: scaleY(150%);
+      }
+      section:hover {
+        letter-spacing: normal;
+      }
+    }
+
+    .Container-Projet {
+      width: 100%;
+      position: absolute;
+      top: calc((100% - 348px) / 2);
+      left: -5%;
       font-size: 30px;
-      letter-spacing: 0.1em;
-      cursor: pointer;
-      transition: 0.5s ease-in-out;
-      -webkit-transition: 0.5s ease-in-out;
-      -moz-transition: 0.5s ease-in-out;
-      -ms-transition: 0.5s ease-in-out;
-      -o-transition: 0.5s ease-in-out;
-      transform: scaleY(150%);
     }
-    section:hover {
-      letter-spacing: normal;
-    }
-  }
-
-  .Container-Projet {
-    width: 100%;
-    position: absolute;
-    top: calc((100% - 348px) / 2);
-    left: -5%;
-    font-size: 30px;
   }
 }
 
 @media screen and (max-width: 1920px) {
 }
 
-@media screen and (max-width: 1440px) {
-}
+@media screen and (max-width: 1072px) {
+  .Home{
+  .Coucou-home {
+    width: 80vw;
+    margin: calc((100vh - 550px)/2) auto;
+  }
+}}
 
 @media screen and (max-width: 1024px) {
   .Home {
-    .Coucou {
-      margin-top: 0%;
-      width: 100%;
-      font-size: 20px;
-      line-height: 40px;
-      text-align: left;
-      section {
+    .Coucou-home {
+      margin: 80px auto;
+      .Coucou {
         width: 100%;
-        font-size: 30px;
-        letter-spacing: 0.1em;
+        margin: 0 auto;
+        text-align: center;
       }
+    }
+  }
+}
+
+
+@media screen and (max-width : 994px ) {
+  .Coucou-home {
+
+    .Coucou {
+color: black;
+font-weight: 600;
+transform: scaleY(120%);
+section {
+text-shadow: 1px 1px 1px black;
+transform: scaleY(140%);
+}
+  }
+  }}
+
+@media screen and (max-width: 932px) {
+  .Home {
+    .Coucou-home {
+      width: 90vw;
+
     }
   }
 }
 
 @media screen and (max-width: 768px) {
   .Home {
-    .Coucou {
-      margin-top: 10%;
-      width: 100%;
+    .Coucou-home {
+      margin: 20% auto;
+      gap: 50px;
+      .Coucou{
+        color: white;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 682px) {
+  .Home {
+    .Coucou-home {
+.Coucou{
+  width: 100%;
+}
+    }
+  }
+}
+
+@media screen and (max-width: 658px) {
+  .Home {
+    .Coucou-home {
+      margin: 25% auto;
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .Home {
+    .Coucou-home {
+      width: 100vw;
+      margin: 30% auto;
+    }
+  }
+}
+
+
+@media screen and (max-width: 430px) {
+  .Home {
+    .Coucou-home {
+      width: 100vw;
+      margin: 30% auto;
       text-align: center;
-      section {
+      gap: 0;
+      .Coucou {
         width: 100%;
-        font-size: 30px;
-        letter-spacing: 0.1em;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .Home {
-    width: 100%;
-    left: 0;
-    .Coucou {
-      margin-top: 35%;
-      width: 100%;
-      text-align: center;
-    }
-  }
-}
-@media screen and (max-width: 375px) {
-  .Home {
-    position: initial;
-    width: 100%;
-    margin-top: 10px;
-    .Coucou {
-      margin-top: 0%;
-      width: 100%;
-      font-size: 16px;
-      line-height: 20px;
-      row-gap: 10px;
-      padding-left: 0%;
-      padding-bottom: 5%;
-      transform: scaleY(130%);
-      letter-spacing: 0.1em;
-      text-align: center;
-      section {
+        height: 80px;
         font-size: 16px;
+        line-height: 20px;
+        transform: scaleY(140%);
+        section {
+          font-size: 15px;
+        }
       }
     }
+  }
+}
 
-    .Container-Projet {
-      position: initial;
-      height: 0;
+@media screen and (max-width: 414px) {
+  .Home {
+    .Coucou-home {
+      margin: 39% auto;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 390px) {
+  .Home {
+    .Coucou-home {
+      margin: 40% auto;
+      .Coucou {
+        margin-bottom: 20px;
+      }
     }
   }
 }

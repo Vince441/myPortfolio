@@ -6,6 +6,7 @@ import ProjetHome from "../components/ProjetHome";
 export default function Home() {
   return (
     <div className="Home">
+      <div className="Coucou-home">
       <div className="Coucou">
         <p>Vincent Louvart de Pontlevoye</p>
 
@@ -54,6 +55,7 @@ export default function Home() {
       </div>
 
       <ProjetHome projet={projet} />
+      </div>
     </div>
   );
 }

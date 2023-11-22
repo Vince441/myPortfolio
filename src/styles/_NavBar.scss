@@ -1,10 +1,11 @@
 .Navbar {
-  width: 14vw;
-  height: 100vh;
+  width: 18vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: 30px;
+  position: relative;
+  z-index: 10;
   .reseaux {
     width: 99%;
     height: 80px;
@@ -89,10 +90,9 @@
       color: white;
       text-decoration: none;
       margin-left: 10%;
-      line-height: 60px;
+      line-height: 50px;
       transition: 200ms;
       font-size: 20px;
-      text-shadow: 1px 3px 2px black;
       display: flex;
       flex-direction: column;
     }
@@ -105,17 +105,7 @@
       background: #ffa317;
     }
   }
-  .audio {
-    p {
-      font-size: 20px;
-      padding: 5px;
-    }
-
-    audio {
-      padding: 5px;
-      margin-bottom: 15px;
-    }
-  }
+  
 }
 
 @media screen and (max-width: 1920px) {
@@ -141,27 +131,43 @@
     }
   }
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width : 994px ) {
+.Navbar {
+  .reseau-1{
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.247));
+  }
+  .reseau-2{
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.247));
+  }
+  .container-menu{
+    a {
+      color: black;
+      font-weight: 600;
+    }
+    .active {
+      color: #ffa317;
+      text-shadow: 1px 1px 1px black;
+    }
+  }
+}
 }
 
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 768px) {
   .Navbar {
     width: 100vw;
-    height: 20vh;
+    height: 17vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.479);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid rgb(255, 255, 255);
     .reseaux {
-      width: 99%;
-      height: 80px;
-      padding-top: 10px;
-      text-align: center;
-      position: relative;
-      display: flex;
-      gap: 5px;
-      z-index: 3;
       img {
         width: 20%;
       }
@@ -208,7 +214,7 @@
           line-height: 60px;
           transition: 200ms;
           font-size: 20px;
-          text-shadow: 0px 0px 0px black;
+
         }
 
         .active {
@@ -222,7 +228,7 @@
         height: 100vh;
         top: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.747);
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -247,7 +253,6 @@
           line-height: 60px;
           transition: 200ms;
           font-size: 20px;
-          text-shadow: 0px 0px 0px black;
         }
 
         .active {
@@ -256,10 +261,17 @@
       }
     }
   }
+}
 
-  .audio {
-    display: none;
-  }
+
+@media screen and (max-width: 430px) {
+
+}
+
+
+
+@media screen and (max-width: 425px) {
+  
 }
 
 @media screen and (max-width: 375px) {
