@@ -1,8 +1,6 @@
 .ContainerMapExperience {
   position: relative;
   margin-top: 5%;
-  
-
 
   .trait {
     width: 5px;
@@ -24,79 +22,81 @@
     backdrop-filter: blur(5px);
     border: 1px solid white;
     box-shadow: 1px 3px 10px 6px #ffffff33;
-    
 
-    .first-object{
-        border-bottom: 1px solid white;
-        width: 100%;
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        
-        
-    h3 { 
-      font-size: 15px;
-      line-height: 20px;
-      color: #61dbfb;
-     
-    }
-}
+    .first-object {
+      border-bottom: 1px solid white;
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
 
-
-    .sc-object{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 100%;
-        background-color: #f1f1f1cc;
-      color: black;
-    p {
-      font-size: 14px;
-      text-align: center;
-      line-height: 22px;
-      
-      span {
+      h3 {
+        font-size: 15px;
+        line-height: 20px;
         color: #61dbfb;
       }
     }
-}}}
 
+    .sc-object {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100%;
+      background-color: #f1f1f1cc;
+      color: black;
+      p {
+        font-size: 14px;
+        text-align: center;
+        line-height: 22px;
 
-.Exp-container.card-style-0{
-    .first-object{
-        
-    h3{
-        color: #e34f26;
-    }}
+        span {
+          color: #61dbfb;
+        }
+      }
+    }
+  }
 }
-.Exp-container.card-style-1{
-    .first-object{
-    h3{
-        color: #4c6ae2;
-    }}
+
+.Exp-container.card-style-0 {
+  .first-object {
+    h3 {
+      color: #e34f26;
+    }
+  }
 }
-.Exp-container.card-style-2{
-    .first-object{
-    h3{
-        color: #F0DB4F;
-    }}
+.Exp-container.card-style-1 {
+  .first-object {
+    h3 {
+      color: #4c6ae2;
+    }
+  }
 }
-.Exp-container.card-style-3{
-    .first-object{
-    h3{
-        color: #61DBFB;
-    }}
+.Exp-container.card-style-2 {
+  .first-object {
+    h3 {
+      color: #f0db4f;
+    }
+  }
 }
-.Exp-container.card-style-4{
-    .first-object{
-    h3{
-        color: #e8406a;
-    }}
+.Exp-container.card-style-3 {
+  .first-object {
+    h3 {
+      color: #61dbfb;
+    }
+  }
 }
-.Exp-container.card-style-5{
-    .first-object{
-    h3{
-        color: white;
-    }}
+.Exp-container.card-style-4 {
+  .first-object {
+    h3 {
+      color: #e8406a;
+    }
+  }
+}
+.Exp-container.card-style-5 {
+  .first-object {
+    h3 {
+      color: white;
+    }
+  }
 }

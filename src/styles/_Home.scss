@@ -1,21 +1,21 @@
 .Home {
-  width: 80vw;
+  width: 100vw;
   height: 100vh;
   position: absolute;
   top: 0;
   left: 14%;
   z-index: 0;
-  animation : Presentation-anim 0.5s forwards;
+  animation: Presentation-anim 0.5s forwards;
   transition: 0.5s ease-in-out;
 
-@keyframes Presentation-anim {
-  from {
-transform: translateY(-100%);
-  } to {
-    transform: translateY(0%);
+  @keyframes Presentation-anim {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
   }
-  
-}
   .Coucou {
     margin: 0;
     height: 80px;
@@ -48,50 +48,78 @@ transform: translateY(-100%);
   .Container-Projet {
     width: 100%;
     position: absolute;
-    top: calc((100% - 348px)/2);
+    top: calc((100% - 348px) / 2);
     left: -5%;
     font-size: 30px;
   }
 }
 
 @media screen and (max-width: 1920px) {
-
 }
 
 @media screen and (max-width: 1440px) {
-
 }
 
 @media screen and (max-width: 1024px) {
-
+  .Home {
+    .Coucou {
+      margin-top: 0%;
+      width: 100%;
+      font-size: 20px;
+      line-height: 40px;
+      text-align: left;
+      section {
+        width: 100%;
+        font-size: 30px;
+        letter-spacing: 0.1em;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
-  
+  .Home {
+    .Coucou {
+      margin-top: 10%;
+      width: 100%;
+      text-align: center;
+      section {
+        width: 100%;
+        font-size: 30px;
+        letter-spacing: 0.1em;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 425px) {
-  
+  .Home {
+    width: 100%;
+    left: 0;
+    .Coucou {
+      margin-top: 35%;
+      width: 100%;
+      text-align: center;
+    }
+  }
 }
-
 @media screen and (max-width: 375px) {
-  .Home{
+  .Home {
     position: initial;
     width: 100%;
     margin-top: 10px;
-    overflow: scroll;
     .Coucou {
+      margin-top: 0%;
       width: 100%;
       font-size: 16px;
       line-height: 20px;
-row-gap: 10px;
-padding-left: 0%;
-padding-bottom: 5%;
-transform: scaleY(130%);
-letter-spacing: 0.1em;
-text-align: center;
-      section{
-        width: 100%;
+      row-gap: 10px;
+      padding-left: 0%;
+      padding-bottom: 5%;
+      transform: scaleY(130%);
+      letter-spacing: 0.1em;
+      text-align: center;
+      section {
         font-size: 16px;
       }
     }

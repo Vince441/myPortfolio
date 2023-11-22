@@ -18,7 +18,7 @@ const projet = [
   {
     NumeroProjet: "Projet 3",
     ProjetName: "Soon",
-    Image: "./public/Ptinterogation.png",
+    Image: "/PTinterogation.png",
     Logo: "",
     Description: "",
     Technologie: "",

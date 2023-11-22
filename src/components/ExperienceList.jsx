@@ -1,10 +1,6 @@
 import React from "react";
 
-
 export default function ExperienceList({ experiences }) {
-
-
-
   return (
     <div className="ContainerMapExperience">
       <div className="trait"></div>
@@ -19,18 +15,14 @@ export default function ExperienceList({ experiences }) {
             </h3>
           </div>
           <div className="sc-object">
-          
             <p>
-              <strong>{object.description}</strong> </p>
-              {object.option ? 
-             <p> {object.option} </p>: ""}
-              <p>{object.year}</p> 
-            
+              <strong>{object.description}</strong>{" "}
+            </p>
+            {object.option ? <p> {object.option} </p> : ""}
+            <p>{object.year}</p>
           </div>
         </div>
-        
       ))}
-      
     </div>
   );
 }

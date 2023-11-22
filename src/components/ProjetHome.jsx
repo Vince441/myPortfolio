@@ -7,17 +7,18 @@ function ProjetHome({ projet }) {
         <div className="Projet-cards" key={index}>
           <img src={projets.Image} />
           <div className="Projet-text-image">
-            
+            <div className={`Projet-image card-${index}`}>
               {projets.Logo ? <img src={projets.Logo} /> : ""}
-            
-          
-          <div className="projet-text">
-            <h1>{projets.NumeroProjet}</h1>
-            <h2>{projets.ProjetName}</h2>
+            </div>
+
+            <div className="projet-text">
+              <h1>{projets.NumeroProjet}</h1>
+              <h2>{projets.ProjetName}</h2>
             </div>
           </div>
         </div>
       ))}
+      <br />
     </div>
   );
 }
